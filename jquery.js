@@ -122,7 +122,7 @@ function startAction(){
 
 
 function chooseFruit(){
-    $("#fruit1").attr('src' , 'fruits[Math.round(8*Math.random())] +'.png');   
+    $("#fruit1").attr('src' , fruits[Math.round(8*Math.random())] +'.png');   
 }
 
 
